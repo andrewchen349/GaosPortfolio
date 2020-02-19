@@ -5,6 +5,9 @@ import './App.css';
 //Import Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+//Import Pages
+import HomePage from './pages/HomePage';
+
 //Other Imports
 import {
   BrowserRouter as Router,
@@ -54,6 +57,7 @@ class App extends React.Component{
                            </Nav>
                        </Navbar.Collapse>
                    </Navbar>
+                   <Route path="/" exact render={() => <HomePage title={this.state.home.title}  subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
                </Container>
            </Router>
        );
