@@ -10,10 +10,10 @@ function Hero(props){
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
             <Container fluid={true}>
                 <Row className="justify-content-center py-5">
-                    <Col className="text-left" md={8} sm={12}>
+                    <Col className="text-left" md={9} sm={12}>
                         <h3 className="display-4 font-weight-bolder justift-content-center"><span style={{color:'#AED9E2'}}>Hi I'm Irena!</span></h3>
                     </Col>
-                    < Col className="text-left py-2" md={8} sm={12}>
+                    < Col className="text-left py-2" md={9} sm={12}>
                         { props.subTitle && <h4 className="display-6 font-weight-light">{props.subTitle}</h4> }
                         { props.text && <h4 className="display-6 font-weight-light">{props.text}</h4> }
                     </Col>

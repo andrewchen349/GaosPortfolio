@@ -32,7 +32,7 @@ class App extends React.Component{
             ],
             home:{
                 title: "Hi I'm Irena",
-                subTitle: "I am a product designer, marketer, and front-end developer, creating technologies for communities",
+                subTitle: "I am a product designer, marketer, and front-end developer, creating technologies for communities.",
                 text: "Recently, I interned at Dynalec Corp. Check out some of my work below!"
             },
             resume:{
@@ -53,7 +53,7 @@ class App extends React.Component{
                            <Nav className="ml-auto">
                                <h5> <Link className="nav-link display-5 font-weight-semibold" to="/">work</Link></h5>
                                <h5> <Link className="nav-link display-5 font-weight-semibold" to="/me">me</Link></h5>
-                               <h5> <Link className="nav-link display-5 font-weight-semibold" to="/me"><span style={{color:'#fed25f'}}>resume</span></Link></h5>
+                               <h5> <Link className="nav-link display-5 font-weight-semibold" to="/me"><span style={{color:'#FCE29F'}}>resume</span></Link></h5>
                            </Nav>
                        </Navbar.Collapse>
                    </Navbar>
