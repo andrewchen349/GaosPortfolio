@@ -5,8 +5,9 @@ import './App.css';
 //Import Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-//Import Pages
+//Import Pages, Componets, Resources
 import HomePage from './pages/HomePage';
+import Resume from './assets/mainresume.pdf';
 
 //Other Imports
 import {
@@ -53,7 +54,7 @@ class App extends React.Component{
                            <Nav className="ml-auto">
                                <h5> <Link className="nav-link display-5 font-weight-semibold" to="/">work</Link></h5>
                                <h5> <Link className="nav-link display-5 font-weight-semibold" to="/me">me</Link></h5>
-                               <h5> <Link className="nav-link display-5 font-weight-semibold" to="/me"><span style={{color:'#FCE29F'}}>resume</span></Link></h5>
+                               <h5> <a className="nav-link display-5 font-weight-semibold" href={Resume} target="_blank"><span style={{color:'#FCE29F'}}>resume</span></a></h5>
                            </Nav>
                        </Navbar.Collapse>
                    </Navbar>
