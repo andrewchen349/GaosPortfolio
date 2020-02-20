@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Import Pages, Componets, Resources
 import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
 import Resume from './assets/mainresume.pdf';
 
 //Font Awesome Imports
@@ -66,6 +67,7 @@ class App extends React.Component{
                        </Navbar.Collapse>
                    </Navbar>
                    <Route path="/" exact render={() => <HomePage title={this.state.home.title}  subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+                   <Route path="/me" render={() => <AboutPage title={this.state.me.title} />} />
                </Container>
            </Router>
        );

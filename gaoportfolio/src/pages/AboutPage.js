@@ -16,7 +16,7 @@ const ColoredLine = ({ color }) => (
     />
 );
 
-function HomePage(props){
+function AboutPage(props){
     return(
         <div>
             <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
@@ -27,4 +27,7 @@ function HomePage(props){
 
     );
 }
-export default HomePage;
+
+
+
+export default AboutPage;
