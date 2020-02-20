@@ -9,6 +9,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './pages/HomePage';
 import Resume from './assets/mainresume.pdf';
 
+//Font Awesome Imports
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 //Other Imports
 import {
   BrowserRouter as Router,
@@ -19,6 +24,8 @@ import {
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/NavBar';
 import Nav from 'react-bootstrap/Nav';
+
+library.add(fab, faGithub, faEnvelope, faLinkedin)
 
 class App extends React.Component{
     constructor(props){
