@@ -27,9 +27,9 @@ function Hero(props){
                         { props.text && <h4 className="display-6 font-weight-light">{props.text}</h4> }
                     </Col>
                     <Col className="text-left py-3 ml-0" md={9} sm={12}>
-                        <FontAwesomeIcon className="ml-3" icon={faGithub} size='2x' />
-                        <FontAwesomeIcon className="ml-3" icon={faLinkedin} size='2x' />
-                        <FontAwesomeIcon className="ml-3" icon={faEnvelope} size='2x' />
+                        <i onClick={()=> window.open("https://github.com/IrenaGao/", "_blank")}><FontAwesomeIcon icon={faGithub} size='2x'/></i>
+                        <i onClick={()=> window.open("https://www.linkedin.com/in/irenagao/", "_blank")}><FontAwesomeIcon className="ml-3" icon={faLinkedin} size='2x'/></i>
+                        <i onClick={()=> window.open("mailto:ijg24@cornell.edu", "_blank")}><FontAwesomeIcon className="ml-3" icon={faEnvelope} size='2x'/></i>
                     </Col>
                 </Row>
             </Container>
