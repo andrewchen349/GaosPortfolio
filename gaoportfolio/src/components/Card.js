@@ -8,7 +8,9 @@ function Card(props) {
     return(
         <Row>
             <div className="mt-4">
-                <img className="g-card-image" width="544" height="377" style={{height:'auto', width:'100%'}} src={props.item.imgSrc} alt={props.item.imgSrc} />
+                <i onClick={()=> window.open(props.item.link, "_blank")}>
+                    <img className="g-card-image" width="544" height="377" style={{height:'auto', width:'100%'}} src={props.item.imgSrc} alt={props.item.imgSrc} />
+                </i>
             </div>
         </Row>
     );

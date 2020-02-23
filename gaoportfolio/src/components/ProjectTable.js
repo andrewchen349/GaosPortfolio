@@ -1,6 +1,6 @@
 import React from 'react';
 
-import microdot from '../assets/newsnapirena.png';
+import microdot from '../assets/newMicro.png';
 import snapchat from '../assets/newsnapirena.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -29,22 +29,6 @@ class ProjectTable extends React.Component{
                     link: 'https://paper.dropbox.com/doc/Snapchat-Case-Study--AoI7HM9Zs9xXS9SkNheGGyxVAQ-kXklYQeqbnZvI3arlVpZf',
                     selected: false
                 },
-                {
-                    id: 2,
-                    title: 'SnapChat Case Study',
-                    subTitle: 'Personal Project',
-                    imgSrc: snapchat,
-                    link: 'https://paper.dropbox.com/doc/Snapchat-Case-Study--AoI7HM9Zs9xXS9SkNheGGyxVAQ-kXklYQeqbnZvI3arlVpZf',
-                    selected: false
-                },
-                {
-                    id: 3,
-                    title: 'SnapChat Case Study',
-                    subTitle: 'Personal Project',
-                    imgSrc: snapchat,
-                    link: 'https://paper.dropbox.com/doc/Snapchat-Case-Study--AoI7HM9Zs9xXS9SkNheGGyxVAQ-kXklYQeqbnZvI3arlVpZf',
-                    selected: false
-                },
             ]
         }
     }
@@ -52,7 +36,7 @@ class ProjectTable extends React.Component{
     //Make Card
     makeItems = (items) => {
         return items.map(item => {
-            return <Card item={item} />
+            return <Card item={item}  />
         })
     }
 
