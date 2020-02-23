@@ -8,7 +8,7 @@ function Card(props) {
     return(
         <Row>
             <div className="mt-4">
-                <img className="g-card-image" width="544" height="377" src={props.item.imgSrc} alt={props.item.imgSrc} />
+                <img className="g-card-image" width="544" height="377" style={{height:'auto', width:'100%'}} src={props.item.imgSrc} alt={props.item.imgSrc} />
             </div>
         </Row>
     );

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import microdot from '../assets/test.png';
-import snapchat from '../assets/test.png';
+import microdot from '../assets/newsnapirena.png';
+import snapchat from '../assets/newsnapirena.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
