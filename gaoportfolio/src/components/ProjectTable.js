@@ -26,7 +26,7 @@ class ProjectTable extends React.Component{
                     title: 'SnapChat Case Study',
                     subTitle: 'Personal Project',
                     imgSrc: snapchat,
-                    link: 'https://paper.dropbox.com/doc/Snapchat-Case-Study--AoI7HM9Zs9xXS9SkNheGGyxVAQ-kXklYQeqbnZvI3arlVpZf',
+                    link: 'https://medium.com/@ijg24/snapchat-concept-designing-for-a-more-relevant-discover-page-999207ca4cea',
                     selected: false
                 },
             ]
