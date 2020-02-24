@@ -2,6 +2,7 @@ import React from 'react';
 
 import microdot from '../assets/newMicro.png';
 import snapchat from '../assets/newsnapirena.png';
+import chett from '../assets/chettban.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -26,6 +27,14 @@ class ProjectTable extends React.Component{
                     title: 'SnapChat Case Study',
                     subTitle: 'Personal Project',
                     imgSrc: snapchat,
+                    link: 'https://medium.com/@ijg24/snapchat-concept-designing-for-a-more-relevant-discover-page-999207ca4cea',
+                    selected: false
+                },
+                {
+                    id: 2,
+                    title: 'Chet Case Study',
+                    subTitle: 'Personal Project',
+                    imgSrc: chett,
                     link: 'https://medium.com/@ijg24/snapchat-concept-designing-for-a-more-relevant-discover-page-999207ca4cea',
                     selected: false
                 },
