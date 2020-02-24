@@ -10,9 +10,11 @@ function AboutPage(props){
     return(
         <div>
              <Hero/>
-             <Row className="offset-md-1">
-                <img className="col-md-3" alt={ProfilePic} src={ProfilePic}/>
-                <Content className="col-md-5">
+             <Row className='justify-content-center mt-0 pt-0'>
+                <img className="col-md-3" style={{height:'auto', width:'100%'}} alt={ProfilePic} src={ProfilePic}/>
+             </Row>
+             <Row className="offset-md-3">
+                <Content className="col-md-2">
                     <p>Hi! My name is Irena and I'm a junior at Cornell studying Information Science hoping to concentrate in behavioral science and data science.</p>
                     <p>I am deeply interested in applying these fields to the environmental or healthcare sector and am flexible in exploring marketing, product design, or front-end development.</p>
                     <p>My main goal is to work in a field with social impact, and I've previously interned @MicroDot and <a href="https://www.dynalec.com/" class="none">@Dynalec Corp</a>.</p>
