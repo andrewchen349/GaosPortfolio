@@ -36,8 +36,8 @@ class App extends React.Component{
             headerLinks:
             [
                 { title: 'work', path: "/"},
-                { title: 'me',   path: "/me"},
-                { title: 'resume', path: "/resume"}
+                { title: 'me',   path: '/me'},
+                { title: 'resume', path: '/resume'}
             ],
             home:{
                 title: "Hi I'm Irena",
