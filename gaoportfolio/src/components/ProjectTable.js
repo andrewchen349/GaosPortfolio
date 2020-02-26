@@ -36,7 +36,7 @@ class ProjectTable extends React.Component{
                     title: 'Chet Case Study',
                     subTitle: 'Personal Project',
                     imgSrc: chett,
-                    link: 'https://medium.com/@ijg24/snapchat-concept-designing-for-a-more-relevant-discover-page-999207ca4cea',
+                    link: 'https://medium.com/@ijg24/chet-motivating-chore-completion-through-a-virtual-pet-7ecf5d5934a',
                     selected: false
                 },
                 {
@@ -44,7 +44,7 @@ class ProjectTable extends React.Component{
                     title: 'Life Changing Lab',
                     subTitle: 'Design',
                     imgSrc: lcl,
-                    link: 'https://medium.com/@ijg24/snapchat-concept-designing-for-a-more-relevant-discover-page-999207ca4cea',
+                    link: 'https://www.lifechanginglabs.com/',
                     selected: false
                 },
             ]
