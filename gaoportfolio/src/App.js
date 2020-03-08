@@ -11,6 +11,8 @@ import AboutPage from './pages/AboutPage';
 import Resume from './assets/mainresume.pdf';
 import MiscPage from './pages/MiscPage';
 
+import Footer from './components/Footer';
+
 //Font Awesome Imports
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
@@ -70,6 +72,7 @@ class App extends React.Component{
                    <Route path="/" exact render={() => <HomePage title={this.state.home.title}  subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
                    <Route path="/me" render={() => <AboutPage title={this.state.me.title} />} />
                    <Route path="/misc" render={() => <MiscPage title={this.state.me.title} />} />
+                   <Footer />
                </Container>
            </Router>
        );
