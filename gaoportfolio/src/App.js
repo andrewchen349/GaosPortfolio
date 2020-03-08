@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import Resume from './assets/mainresume.pdf';
+import MiscPage from './pages/MiscPage';
 
 //Font Awesome Imports
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -68,6 +69,7 @@ class App extends React.Component{
                    </Navbar>
                    <Route path="/" exact render={() => <HomePage title={this.state.home.title}  subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
                    <Route path="/me" render={() => <AboutPage title={this.state.me.title} />} />
+                   <Route path="/misc" render={() => <MiscPage title={this.state.me.title} />} />
                </Container>
            </Router>
        );

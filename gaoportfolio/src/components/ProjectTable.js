@@ -3,7 +3,7 @@ import React from 'react';
 import microdot from '../assets/newMicro.png';
 import snapchat from '../assets/newsnapirena.png';
 import chett from '../assets/chettban.png';
-import lcl from '../assets/lclpg.png';
+import lcl from '../assets/lifechanginglabscard.png';
 import agua from '../assets/aguaclara.png';
 import dyn from '../assets/dyn.png';
 import Container from 'react-bootstrap/Container';
@@ -54,7 +54,7 @@ class ProjectTable extends React.Component{
                     title: 'Life Changing Lab',
                     subTitle: 'Design',
                     imgSrc: lcl,
-                    link: 'https://www.lifechanginglabs.com/',
+                    link: '/misc',
                     selected: false
                 },
                 {
